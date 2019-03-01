@@ -25,7 +25,7 @@ import (
 	_ "github.com/Beeketing/mysql"
 	"github.com/Beeketing/sqlx/reflectx"
 	_ "github.com/Beeketing/pq"
-	_ "github.com/mattn/go-sqlite3"
+	_ "github.com/Beeketing/go-sqlite3"
 )
 
 /* compile time checks that Db, Tx, Stmt (qStmt) implement expected interfaces */
