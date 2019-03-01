@@ -72,8 +72,8 @@ import (
     "fmt"
     "log"
     
-    _ "github.com/lib/pq"
-    "github.com/jmoiron/sqlx"
+    _ "github.com/Beeketing/pq"
+    "github.com/Beeketing/sqlx"
 )
 
 var schema = `

@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/jmoiron/sqlx/reflectx"
-	_ "github.com/lib/pq"
+	_ "github.com/Beeketing/mysql"
+	"github.com/Beeketing/sqlx/reflectx"
+	_ "github.com/Beeketing/pq"
 	_ "github.com/mattn/go-sqlite3"
 )
 
