@@ -1,7 +1,9 @@
-module github.com/jmoiron/sqlx
+module github.com/Beeketing/sqlx
+
+go 1.15
 
 require (
-	github.com/go-sql-driver/mysql v1.4.0
-	github.com/lib/pq v1.0.0
-	github.com/mattn/go-sqlite3 v1.9.0
+	github.com/Beeketing/go-sqlite3 v1.10.0
+	github.com/Beeketing/mysql v1.4.1
+	github.com/Beeketing/pq v1.0.0-custom
 )
